@@ -15,7 +15,7 @@ function App() {
 
       try {
         const response = await fetch('http://localhost/goals');
-
+ 
         const resData = await response.json();
 
         if (!response.ok) {

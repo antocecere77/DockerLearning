@@ -7,3 +7,4 @@ function GoalItem(props) {
 }
 
 export default GoalItem;
+ 

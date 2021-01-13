@@ -20,7 +20,7 @@ function CourseGoals(props) {
               text={goal.text}
               onDelete={props.onDeleteGoal}
             />
-          ))}
+          ))} 
         </ul>
       </Card>
     </section>

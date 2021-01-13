@@ -8,7 +8,7 @@ function GoalInput(props) {
 
   function updateGoalTextHandler(event) {
     setEnteredGoalText(event.target.value);
-  }
+  } 
 
   function goalSubmitHandler(event) {
     event.preventDefault();
