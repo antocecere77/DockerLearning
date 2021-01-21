@@ -20,11 +20,12 @@ spec:
     spec: 
       containers:
         - name: second-node
-          image: antocecere77/kub-first-app
+          image: antocecere77/kub-first-app:2
+          imagePullPolicy: Always
           livenessProbe: 
             httpGet:
               path: /
               port: 8080
             periodSeconds: 10
             initialDelaySeconds: 5
-                          
+
