@@ -18,10 +18,10 @@ spec:
           volumeMounts:
             - mountPath: /app/story
               name: story-volume
-      volumes: 
+      volumes:
         - name: story-volume
-        persistentVolumeClaim: 
-          claimName: host-pvc
+          persistentVolumeClaim:
+            claimName: host-pvc
           #hostPath:
           #  path: /data
           #  type: DirectoryOrCreate
